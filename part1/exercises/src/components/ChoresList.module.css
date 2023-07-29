@@ -1,7 +1,14 @@
 .choresText {
-   color: black;
+   color: rgb(151, 11, 11);
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .choresHeading {
-   color: black;
+   color: rgb(52, 15, 188);
+   text-decoration: underline;
+}
+.choresList{
+   font-style: italic;
 }
