@@ -1,5 +1,15 @@
+import "./styling.css";
+
 function ClickedButton() {
-  return;
+  //alert("clicked button");
+  function handleClick() {
+    alert("You are clicked this pin!");
+  }
+  return (
+    <button id="clickedButton" onClick={handleClick} >
+      Save
+    </button>
+  );
 }
 
 export default ClickedButton;
