@@ -37,10 +37,10 @@ return(
     <div>  {handleClick}</div> 
     <div>
         <ol>
-        <li>{data[index].canvas}</li>
-        <li>{data[index].designer}</li>
-        <li>{data[index].photoUrl}</li>
-        <li>{data[index].alt}</li>
+        <li>{data[index].Album}</li>
+        <li>{data[index].Author}</li>
+        <li>{data[index].Url}</li>
+        <li>{data[index].song}</li>
     </ol>
     </div>
     </div>

@@ -6,7 +6,7 @@ import MyProjects from './components/Projects';
 function App() {
   return (
     <div className="App">
-    <h1>My Hobby: Walking</h1>
+    <h1>My Hobby: Listening Music</h1>
     <HobbyIntroduction />
     <MyProjects/>
  </div>
