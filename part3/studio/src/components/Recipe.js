@@ -1,11 +1,11 @@
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://pinchofyum.com/blueberry-matcha-latte";
+   let authorPhoto = "https://pinchofyum.com/wp-content/assets/images/about/lindsay-hero.jpg";
+   let authorName = "Lindsay";
 
    return (
       <div>
-         <img src={authorPhoto} alt = "" style={{objectFit: "contain", borderRadius: "50%"}} />
+         <img src={authorPhoto} alt = "" style={{objectFit: "contain", borderRadius: "50%",width:"500px", height: "500px"}} />
          <div>
             <h3>{authorName}</h3>
             <a href={authorLink}></a> 
@@ -15,7 +15,11 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = [ "oat milk",
+   "matcha of choice",
+   "frozen blueberries",
+   "sugar",
+   "warm water"];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -34,8 +38,8 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1></h1>
-            <p></p>
+            <h1>Blueberry Matcha Latte</h1>
+            <p>Sweet summery drink perfection! Yummy blueberry syrup mixed into a matcha oat milk latte makes for the perfect iced drink for summertime. Yum!</p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
@@ -47,7 +51,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://pinchofyum.com/wp-content/uploads/Blueberry-Matcha-Latte-13-1365x2048.jpg" alt="Blueberry Matcha Latte" className="imageUpdates"/>
    );
 }
 

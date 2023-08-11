@@ -9,7 +9,7 @@ function App() {
       <RecipeDisplay />
       <div className="recipePhotoBlock">
         <BoardAssignment />
-        <StatusChange />
+         <StatusChange /> 
       </div>
     </div>
   );
